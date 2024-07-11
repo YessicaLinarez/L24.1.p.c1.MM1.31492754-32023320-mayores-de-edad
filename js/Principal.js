@@ -32,4 +32,4 @@ mayoresEdad.procesarPersona(persona12);
 let salida = document.getElementById("salida");
 salida.innerHTML+= "<br> Cantidad de personas: " +mayoresEdad.devolverContPersonas();
 salida.innerHTML+= "<br> Cantidad de personas mayor de edad: " +mayoresEdad.devolverContMayoresEdad();
-salida.innerHTML+= "<br> Cantidad de personas: " +mayoresEdad.porcentajeMayoresEdad() + "%";
+salida.innerHTML+= "<br> Cantidad de personas: " +mayoresEdad.porcentajeMayoresEdad().toFixed(2) + "%";
